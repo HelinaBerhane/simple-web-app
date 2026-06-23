@@ -1,17 +1,17 @@
 # Hello World
 
 - [x] make a github repository
-- [ ] write a react frontend that shows the text "Hello World"
+
+- [x] write a react frontend that shows the text "Hello World"
   - [x] `npx create-react-app frontend`
   - [x] `cd frontend`
-  - [x] write `frontend/src/App.js`:
-    ```
-    function App() {
-    return <div style={{ padding: '50px', fontFamily: 'Arial' }}>Hello World</div>;
-    }
-    ```
+  - [x] write `frontend/src/App.js`
 
-- [ ] write a go backend api that returns the text "Hello World!"
+- [x] write a golang backend api endpoint that returns the text "Hello World!"
+  - [x] `go mod init backend`
+  - [x] write `backend/main.go`
+  - [x] check that the api works with `curl http://localhost:8080/api`
+
 - [ ] make the react frontend query the api and show the returned text
 - [ ] check that navigating to localhost shows the app
 - [ ] setup a vps (e.g. oracle / aws free tier)
