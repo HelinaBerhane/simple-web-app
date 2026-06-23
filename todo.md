@@ -2,6 +2,15 @@
 
 - [x] make a github repository
 - [ ] write a react frontend that shows the text "Hello World"
+  - [x] `npx create-react-app frontend`
+  - [x] `cd frontend`
+  - [ ] write `frontend/src/App.js`:
+    ```
+    function App() {
+    return <div style={{ padding: '50px', fontFamily: 'Arial' }}>Hello World</div>;
+    }
+    ```
+
 - [ ] write a go backend api that returns the text "Hello World!"
 - [ ] make the react frontend query the api and show the returned text
 - [ ] check that navigating to localhost shows the app
