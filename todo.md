@@ -4,7 +4,7 @@
 - [ ] write a react frontend that shows the text "Hello World"
   - [x] `npx create-react-app frontend`
   - [x] `cd frontend`
-  - [ ] write `frontend/src/App.js`:
+  - [x] write `frontend/src/App.js`:
     ```
     function App() {
     return <div style={{ padding: '50px', fontFamily: 'Arial' }}>Hello World</div>;
