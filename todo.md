@@ -12,16 +12,20 @@
   - [x] write `backend/main.go`
   - [x] check that the api works with `curl http://localhost:8080/api`
 
-- [ ] make the react frontend query the api and show the returned text
-- [ ] check that navigating to localhost shows the app
-- [ ] setup a vps (e.g. oracle / aws free tier)
+- [x] make the react frontend query the api and show the returned text
+  - [x] check that navigating to localhost shows the app
+
+- [ ] setup the vps (e.g. oracle / aws free tier)
   - [ ] set a budget alert to avoid unexpected costs
-- [ ] connect to the vps using ssh
   - [ ] generate ssh keys `ssh-keygen -t ed25519`
+  - [ ] connect to the vps using ssh
+
 - [ ] clone and run your repo on the vps
-- [ ] get a domain
-- [ ] point your domain at the vps
-- [ ] check that navigating to your domain shows the app
+
+- [ ] setup the domain
+  - [x] buy a domain
+  - [ ] point your domain at the vps
+  - [ ] check that navigating to your domain shows the app
 
 # CRUD
 
