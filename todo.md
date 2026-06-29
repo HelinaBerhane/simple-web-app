@@ -15,12 +15,18 @@
 - [x] make the react frontend query the api and show the returned text
   - [x] check that navigating to localhost shows the app
 
-- [ ] setup the vps (e.g. oracle / aws free tier)
-  - [ ] set a budget alert to avoid unexpected costs
-  - [ ] generate ssh keys `ssh-keygen -t ed25519`
-  - [ ] connect to the vps using ssh
+- [x] setup the vps
+  - [x] sign up with a vps provider
+  - [x] make a vps
+    - [x] generate ssh keys `ssh-keygen -t ed25519`
+  - [x] get the IP of the vps
+  - [x] connect to the vps using ssh
+    - [x] fix issues connecting
 
-- [ ] clone and run your repo on the vps
+- [ ] run your code on the vps
+  - [ ] clone and run your repo on the vps
+  - [ ] set a budget alert to avoid unexpected costs
+  - [ ] move the api url in the frontend to .env
 
 - [ ] setup the domain
   - [x] buy a domain
